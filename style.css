@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.main header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24292e;
+    position: fixed;
+}
+.nav-link{
+    color: white;
+    padding-left: 100px;
+    display: block;
+    padding: 20px 40px ;
+}
+.nav-link:hover{
+    background-color: #1b1f23;
+    color: #b08800;
+}
+
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo a{
+    color: #b08800;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(78,77,77);
+    background: linear-gradient(103deg, rgba(78,77,77,1) 35%, rgba(47,48,48,1) 100%);
+}
+
+.about h2{
+    color: white;
+    font-size: 4em;
+}
+.about p{
+    color:#b08800;
+    font-size: 1rem;
+}
